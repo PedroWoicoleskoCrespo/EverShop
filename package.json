@@ -1,7 +1,9 @@
 {
   "scripts": {
+    "build": "evershop build --skip-minify",
     "start": "evershop start",
-    "build": "evershop build"
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword"
   },
   "dependencies": {
     "@evershop/evershop": "^1.0.0-rc.3",
